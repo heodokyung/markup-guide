@@ -6,24 +6,24 @@
 - - -
 
 1. [기본 규칙](#basic)
-  + - [1.1 ID / Class 기본 규칙](#name-syntax)
+   - [1.1 ID / Class 기본 규칙](#name-syntax)
 2. [들여쓰기 및 환경 설정](#editor)
 3. [HTML](#html)
-  - [3-1. Syntax](#html-syntax)
-  - [3-2. Doctype](#html-doctype)
-  - [3-3. 언어(lang) 속성](#html-lang)
-  - [3-4. Metadata](#html-metadata)
-  - [3-5. Elements](#html-elements)
-  - [3-6. Attributes](#html-attributes)
+   - [3-1. Syntax](#html-syntax)
+   - [3-2. Doctype](#html-doctype)
+   - [3-3. 언어(lang) 속성](#html-lang)
+   - [3-4. Metadata](#html-metadata)
+   - [3-5. Elements](#html-elements)
+   - [3-6. Attributes](#html-attributes)
 4. [CSS](#css)
-  - [4-1. CSS 문법](#css-syntax)
-  - [4-2. 속성(property) 선언 순서](#css-property-order)
-  - [4-3. 미디어 쿼리 위치](#css-media-query)
-  - [4-4. 전처리문 계산식](#css-preprocessor-calculation)
-  - [4-5. 주석](#css-comment)
-  - [4-6. 네이밍 규칙](#css-naming)
-  - [4-7. 선택자](#css-selector)
-  - [4-8. 컴포넌트](#css-component)
+   - [4-1. CSS 문법](#css-syntax)
+   - [4-2. 속성(property) 선언 순서](#css-property-order)
+   - [4-3. 미디어 쿼리 위치](#css-media-query)
+   - [4-4. 전처리문 계산식](#css-preprocessor-calculation)
+   - [4-5. 주석](#css-comment)
+   - [4-6. 네이밍 규칙](#css-naming)
+   - [4-7. 선택자](#css-selector)
+   - [4-8. 컴포넌트](#css-component)
 
 - - -
 
@@ -384,8 +384,8 @@ CSS와 SASS 등의 CSS 전처리기(CSS Preprocessor) 코드의 작성 규칙을
 * 스타일 제어를 위해 아이디 선택자의 사용을 하지 않습니다.
 * 클래스 이름은 명은 케밥 표기법(`kebab-case`) 작성을 원칙으로 하며 숫자, 더블 대시(`--`), 더블 언더스코어(`__`)만 사용합니다.
 * 짧고 간결하게 작성하되 축약하지 않습니다. `.btn`과 같이 쉽게 의미를 유추 할 수 있는 축약은 괜찮지만 `.bn`와 같이 의미를 파악하기 어려운 축약은 사용하지 않습니다.
-  **클래스명은 페이지에 상속받지 않으며, 디자인(시각적 표현)보다는 구조, 기능, 목적을 나타내는 이름으로 네이밍 합니다.**
-  **클래스명은 반드시 엘리먼트의 의미를 전부 담아서 네이밍 합니다.**
+   * 클래스명은 페이지에 상속받지 않으며, 디자인(시각적 표현)보다는 구조, 기능, 목적을 나타내는 이름으로 네이밍 합니다.
+   * 클래스명은 반드시 엘리먼트의 의미를 전부 담아서 네이밍 합니다.
 * 변화 또는 상태를 나타내는 추가 클래스는 블록 또는 요소 이름에 더블 대시(`--`)를 붙여 작명합니다.
 
 
