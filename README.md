@@ -6,7 +6,7 @@
 - - -
 
 1. [기본 규칙](#basic)
-  - [1.1 ID / Class 기본 규칙](#name-syntax)
+  - **[1.1 ID / Class 기본 규칙](#name-syntax)**
 2. [들여쓰기 및 환경 설정](#editor)
 3. [HTML](#html)
   - [3-1. Syntax](#html-syntax)
