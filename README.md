@@ -68,18 +68,18 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 많
 ### 3-1. HTML 문법 <a id="html-syntax" href="#html-syntax">#</a>
 
 * 들여쓰기는 공백문자 2개를 사용합니다.
-* 모든 엘리먼트 명과 애트리뷰트 명은 케밥 표기법(kebab-case)으로 작성하세요.
 * 모든 애트리뷰트 값은 큰 큰 따옴표(")를 사용합니다.
-* 닫는 태그가 선택적이라도 생략하지 않습니다. (예: `</li>`, `</body>`)
+* 닫는 태그는 생략하지 않습니다. (예: `</li>`, `</body>`)
+* 다만 단일 싱글태그일 경우에는 프로젝트 구성원의 협의하에 결정하여 정할 수 있습니다. 
 
 ```html
 <!-- Bad -->
-<input />
-<br />
+<div></div>
+<span></span>
 
 <!-- Good -->
-<input>
-<br>
+<input> OR <input />
+<br> OR <br />
 ```
 
 ### 3-2. HTML5 doctype <a id="html-doctype" href="#html-doctype">#</a>
