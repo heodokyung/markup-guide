@@ -39,8 +39,8 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 많
 
 
 ### 1.1 ID / Class 기본 규칙 <a id="name-syntax" href="#name-syntax">#</a>
-* 모든 엘리먼트 명과 애트리뷰트 명은 케밥 표기법(`kebab-case`) 작성을 원칙으로 합니다.
-    * CSS의 모든 속성 역시 케밥 표기법으로 표기되고 가독성 및 오타방지, Shift의 사용없이 빠른 입력이 가능합니다.
+* 모든 엘리먼트 명과 애트리뷰트 명은 BEM 방법론을 기준으로 한 작성을 원칙으로 합니다.
+    * CSS의 모든 속성은  BEM 방법론으로 작업되며 가독성 및 오타방지, Shift의 사용없이 빠른 입력이 가능합니다.
 * 재 사용성이 없는 ID는 사용하지 않고 Class로만 작성하며 레이아웃 역시 포함됩니다. (예: `<div class="header" />`, `<div class="footer" />`, `<div class="container" />`, `<div class="gnb" />` 등)
 
 ```html
@@ -49,7 +49,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 많
 <span class="search_form"></span>
 
 <!-- Good -->
-<span class="search-form"></span>
+<span class="search__form"></span>
 ```
 
 - - -
